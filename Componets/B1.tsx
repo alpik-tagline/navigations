@@ -8,17 +8,21 @@ const B1 = () => {
         </View>
     )
 }
-
 export default B1
 
 const styles = StyleSheet.create({
+
     header: {
         display: 'flex',
         alignItems: 'center',
-      
     },
+
     hometxt: {
         fontWeight: "bold",
         fontSize: 30,
     }
+
 })
+
+
+

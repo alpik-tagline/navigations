@@ -1,20 +1,20 @@
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
-const D1 = () => {
+const D1 = ({ onClose }) => {
+
   return (
     <View style={styles.container}>
-      <Text>D1 Screen</Text>
+      <Text>D1</Text>
+      <Button title="Back" onPress={onClose} />
     </View>
+
   );
 };
 
 export default D1;
 
+
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
+  container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
 });
+

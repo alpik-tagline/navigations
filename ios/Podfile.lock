@@ -1125,11 +1125,20 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
+  - RNReanimated (3.6.2):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
+    - ReactCommon/turbomodule/core
   - RNScreens (4.9.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - React-RCTImage
+  - RNVectorIcons (10.2.0):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1210,7 +1219,9 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCMaskedView (from `../node_modules/@react-native-masked-view/masked-view`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1333,8 +1344,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-masked-view/masked-view"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1402,7 +1417,9 @@ SPEC CHECKSUMS:
   ReactCommon: 851280fb976399ca1aabc74cc2c3612069ea70a2
   RNCMaskedView: 1611be41c9f78f5ecbcff2360b0891593c1c0ce1
   RNGestureHandler: 82745299436312f09767fdbea8d4617172f031e6
+  RNReanimated: 5589be82dc26b3f94738eb7c6b1f942787532b25
   RNScreens: 931787301ac248319e626dfaff1c3af230842872
+  RNVectorIcons: 48aa8b1a17c7f82461df43783b0818cad38a2bcf
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 20d6a900dcc8d61d5e3b799bbf627cc34474a8c4
 
