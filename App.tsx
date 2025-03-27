@@ -6,10 +6,11 @@ import B1 from './Componets/B1'
 import B2 from './Componets/B2'
 import B3 from './Componets/B3'
 import { NavigationContainer } from '@react-navigation/native'
-
+import { createDrawerNavigator } from '@react-navigation/drawer'
+import D1 from './Componets/D1'
 
 const Tab = createBottomTabNavigator();
-
+const Drawer = createDrawerNavigator()
 
 function MyTabs() {
   return (
@@ -21,9 +22,13 @@ function MyTabs() {
   );
 }
 
+
 const App = () => {
   return (
     <NavigationContainer>
+      <Drawer.Navigator>
+        <Drawer.Screen name='ASD' component={D1} />
+      </Drawer.Navigator>
       <Home />
       <MyTabs />
     </NavigationContainer>
