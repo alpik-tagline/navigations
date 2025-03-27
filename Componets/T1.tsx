@@ -3,6 +3,7 @@ import React from 'react'
 
 const T1 = () => {
     return (
+       
         <View style={styles.container}>
             <Text>T1</Text>
         </View>
